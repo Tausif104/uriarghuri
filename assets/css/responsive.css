@@ -1,0 +1,180 @@
+@media (max-width:1440px) {
+    .banner-content h1 {
+        font-size: 50px;
+    }
+    .promo-text h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1199px) {
+    .single-feature-card {
+        transition: 0.5s;
+        margin-bottom: 30px;
+    }
+    section.promo-section {
+        margin: 100px 0;
+        padding: 100px 0;
+    }
+    .tour-card {
+        margin-bottom: 30px;
+    }
+    section.team-section {
+        margin: 100px 0;
+        padding: 100px 0;
+    }
+    .section-padding {
+        padding: 100px 0;
+    }
+    section.blog {
+        margin: 100px 0;
+    }
+    .single-blog-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:991px) {
+    .banner-thumbnail-wrapper {
+        text-align: center;
+    }
+    
+    img.banner-thumbnail {
+        max-width: 350px;
+    }
+    
+    .banner-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .banner-content h1 {
+        font-size: 36px;
+    }
+    button.navbar-toggler {
+        background-color: #5AE4A8;
+    }
+    
+    header {
+        background-color: #D5F7E6;
+    }
+    button.navbar-toggler {
+        background-color: #5AE4A8;
+    }
+    
+    header {
+        background-color: #D5F7E6;
+    }
+    
+    header .navbar li {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .header-buttons {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .navbar-brand img {
+        max-width: 50px;
+        height: 50px;
+    }
+    .promo-thumbnail {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .promo-thumbnail img {
+        max-width: 350px;
+    }
+    
+    .promo-text {
+        text-align: center;
+    }
+    
+    .promo-text h2 {
+        font-size: 30px;
+    }
+    .team-bg {
+        height: 350px;
+    }
+    .testimonial-slides:after {
+        right: -12px;
+    }
+    .contact-form-thumbnail img {
+        max-width: 350px;
+    }
+    
+    .contact-form-thumbnail {
+        text-align: center;
+    }
+    .footer-box {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .banner-content p {
+        font-size: 14px;
+    }
+    
+    img.banner-thumbnail {
+        max-width: 260px;
+    }
+    section.banner {
+        height: auto;
+    }
+    section.banner {
+        padding: 140px 0;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    
+    .section-title {
+        margin-bottom: 30px;
+    }
+    
+    section.promo-section {
+        margin: 70px 0;
+        padding: 70px 0;
+    }
+    
+    .promo-text h2 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    
+    section.team-section {
+        margin: 70px 0;
+        padding: 70px 0;
+    }
+    
+    .team-card {
+        margin-bottom: 30px;
+    }
+    
+    section.blog {
+        margin: 70px 0;
+        padding: 70px 0;
+    }
+    
+    .contact-form h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    footer {
+        padding-bottom: 0;
+        padding-top: 70px;
+    }
+    section.contact-form-section {
+        margin-bottom: 70px;
+    }
+}

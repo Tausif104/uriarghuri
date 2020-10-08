@@ -13,7 +13,9 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
@@ -47,6 +49,11 @@
                                     <a href="#">Contact</a>
                                 </li>
                             </ul>
+                            <ul class="navbar-nav">
+                                <div class="header-buttons">
+                                    <a href="" class="boxed-btn">Get a Quote</a>
+                                </div>
+                            </ul>
                         </div>
                     </nav>
                 </div>
@@ -56,20 +63,22 @@
     <!-- header -->
 
     <!-- banner -->
-    <section class="banner">
+    <section class="banner" style="background-image: url(assets/img/banner.png);">
         <div class="banner-inner">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 my-auto">
+                    <div class="col-xl-6 col-lg-6 my-auto">
                         <div class="banner-content">
                             <h1>Let's Enjoy the wonders of Nature</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolores corporis esse quis
                                 nobis distinctio dolor excepturi. Autem, voluptatem dolorem.</p>
-                            <a href="#" class="">Get a Quote</a>
+                            <a href="#" class="boxed-btn">Get a Quote</a>
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <img src="assets/img/banner-thumb.jpg" alt="">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="banner-thumbnail-wrapper">
+                            <img class="banner-thumbnail" src="assets/img/banner-thumb.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,8 +99,8 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-xl-4 text-center">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-6 text-center">
                     <div class="single-feature-card">
                         <div class="feature-icon">
                             <div class="feature-icon-inner">
@@ -106,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 text-center">
+                <div class="col-xl-4 col-lg-6 col-md-6 text-center">
                     <div class="single-feature-card">
                         <div class="feature-icon">
                             <div class="feature-icon-inner">
@@ -121,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 text-center">
+                <div class="col-xl-4 col-lg-6 col-md-6 text-center">
                     <div class="single-feature-card">
                         <div class="feature-icon">
                             <div class="feature-icon-inner">
@@ -140,18 +149,18 @@
     </section>
     <!-- features -->
 
-    <!-- featured section -->
-    <section class="featured-section">
+    <!-- promo section -->
+    <section class="promo-section section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
-                    <div class="featured-thumbnail">
-                        <img src="assets/img/globe.jpg" alt="">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="promo-thumbnail">
+                        <img src="assets/img/globe.png" alt="">
                     </div>
                 </div>
-                <div class="col-xl-6 my-auto">
-                    <div class="featured-text">
-                        <h2>A Travel Agency's main purpose is is to act as an agent and services on behalf of suplier.
+                <div class="col-xl-6 my-auto col-lg-6">
+                    <div class="promo-text">
+                        <h2>A Travel Agency's main purpose is is to act.
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nam nulla hic maxime earum
                             ratione perferendis, non totam, voluptas quibusdam commodi veritatis odit, officia
@@ -162,7 +171,7 @@
             </div>
         </div>
     </section>
-    <!-- featured section -->
+    <!-- promo section -->
 
     <!-- Our tours -->
     <section class="our-tours">
@@ -176,8 +185,8 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-xl-4">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tour-card">
                         <div class="tour-card-bg" style="background-image: url('assets/img/tour/1.jpg');"></div>
                         <div class="tour-text">
@@ -185,11 +194,12 @@
                             <p class="tour-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, unde.
                             </p>
                             <p class="tour-duration"><i class="far fa-clock"></i> 3 days 2 nights</p>
-                            <a href="" target="_blank">See Photos</a>
+                            <a class="inline-btn" href="" target="_blank">See Photos <i
+                                    class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tour-card">
                         <div class="tour-card-bg" style="background-image: url('assets/img/tour/1.jpg');"></div>
                         <div class="tour-text">
@@ -197,11 +207,12 @@
                             <p class="tour-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, unde.
                             </p>
                             <p class="tour-duration"><i class="far fa-clock"></i> 3 days 2 nights</p>
-                            <a href="" target="_blank">See Photos</a>
+                            <a class="inline-btn" href="" target="_blank">See Photos <i
+                                    class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="tour-card">
                         <div class="tour-card-bg" style="background-image: url('assets/img/tour/1.jpg');"></div>
                         <div class="tour-text">
@@ -209,7 +220,8 @@
                             <p class="tour-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, unde.
                             </p>
                             <p class="tour-duration"><i class="far fa-clock"></i> 3 days 2 nights</p>
-                            <a href="" target="_blank">See Photos</a>
+                            <a class="inline-btn" href="" target="_blank">See Photos <i
+                                    class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +231,7 @@
     <!-- Our tours -->
 
     <!-- Our Team -->
-    <section class="team-section">
+    <section class="team-section section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -231,7 +243,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="team-card">
                         <div class="team-bg" style="background-image: url(assets/img/team/1.jpg);"></div>
                         <div class="team-text">
@@ -239,7 +251,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="team-card">
                         <div class="team-bg" style="background-image: url(assets/img/team/2.jpg);"></div>
                         <div class="team-text">
@@ -247,7 +259,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-bg" style="background-image: url(assets/img/team/3.jpg);"></div>
+                        <div class="team-text">
+                            <h3>Tausif Ahmed <span>CEO</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="team-card">
                         <div class="team-bg" style="background-image: url(assets/img/team/3.jpg);"></div>
                         <div class="team-text">
@@ -260,8 +280,231 @@
     </section>
     <!-- Our Team -->
 
+    <!-- testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section-title">
+                        <span>Testimonial</span>
+                        <h2>Customer Reviews</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="testimonial-slides">
+                        <div class="single-testimonial-slide">
+                            <img src="assets/img/person.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum rerum libero
+                                magni officiis architecto?</p>
+                            <div class="testimonial-meta">
+                                <h3>John Doe <span>Ceo - Microsoft</span></h3>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-slide">
+                            <img src="assets/img/person.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum rerum libero
+                                magni officiis architecto?</p>
+                            <div class="testimonial-meta">
+                                <h3>John Doe <span>Ceo - Microsoft</span></h3>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-slide">
+                            <img src="assets/img/person.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum rerum libero
+                                magni officiis architecto?</p>
+                            <div class="testimonial-meta">
+                                <h3>John Doe <span>Ceo - Microsoft</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial -->
+
+    <!-- Blog -->
+    <section class="blog section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section-title">
+                        <span>Blog</span>
+                        <h2>Our Writings</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="single-blog-card">
+                        <div class="blog-bg" style="background-image: url(assets/img/tour/1.jpg);"></div>
+                        <div class="blog-text">
+                            <div class="blog-meta">
+                                <span class="blog-date"><i class="far fa-clock"></i> 15 Aug, 2020</span>
+                                <span class="blog-author"><i class="far fa-user"></i> by Tausif</span>
+                            </div>
+                            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A placeat reiciendis doloremque
+                                illum.</p>
+                            <a class="inline-btn" href="">Read More <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="single-blog-card">
+                        <div class="blog-bg" style="background-image: url(assets/img/tour/1.jpg);"></div>
+                        <div class="blog-text">
+                            <div class="blog-meta">
+                                <span class="blog-date"><i class="far fa-clock"></i> 15 Aug, 2020</span>
+                                <span class="blog-author"><i class="far fa-user"></i> by Tausif</span>
+                            </div>
+                            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A placeat reiciendis doloremque
+                                illum.</p>
+                            <a class="inline-btn" href="">Read More <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="single-blog-card">
+                        <div class="blog-bg" style="background-image: url(assets/img/tour/1.jpg);"></div>
+                        <div class="blog-text">
+                            <div class="blog-meta">
+                                <span class="blog-date"><i class="far fa-clock"></i> 15 Aug, 2020</span>
+                                <span class="blog-author"><i class="far fa-user"></i> by Tausif</span>
+                            </div>
+                            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A placeat reiciendis doloremque
+                                illum.</p>
+                            <a class="inline-btn" href="">Read More <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog -->
+
+    <!-- contact form -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="contact-form-thumbnail">
+                        <img src="assets/img/suitcase.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 my-auto col-lg-6">
+                    <div class="contact-form">
+                        <h2>Contact Us</h2>
+                        <form action="index.html">
+                            <div class="form-group">
+                                <input type="text" placeholder="Name" class="form-control">
+                                <small class="form-text text-muted">Enter Your Full Name. It's Required.</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" class="form-control">
+                                <small class="form-text text-muted">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Message"
+                                    class="form-control"></textarea>
+                                <small class="form-text text-muted">Enter Your Message</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Submit" class="boxed-btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact form -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6">
+                    <div class="footer-box footer-about">
+                        <h3>Uri Ar Ghuri</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae perferendis asperiores,
+                            expedita tempora unde, officiis nesciunt sunt delectus.</p>
+                        <ul class="footer-social">
+                            <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6">
+                    <div class="footer-box  footer-recent-post">
+                        <h3>Recent Posts</h3>
+                        <div class="recent-posts-footer">
+                            <div class="single-recent-post">
+                                <img src="assets/img/sea-beach.jpg" alt="">
+                                <div class="recent-post-text">
+                                    <h4><a href="">Lorem ipsum dolor sit amet consectetur.</a></h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laudantium?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-recent-post">
+                                <img src="assets/img/sea-beach.jpg" alt="">
+                                <div class="recent-post-text">
+                                    <h4><a href="">Lorem ipsum dolor sit amet consectetur.</a></h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laudantium?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="single-recent-post">
+                                <img src="assets/img/sea-beach.jpg" alt="">
+                                <div class="recent-post-text">
+                                    <h4><a href="">Lorem ipsum dolor sit amet consectetur.</a></h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laudantium?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="footer-box footer-sitemap">
+                        <h3>Sitemap</h3>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="copyright-text">
+                        <span>&copy; 2020 | UriarGhuri. All Rights Reserved </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
